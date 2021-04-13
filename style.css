@@ -6,4 +6,36 @@ body {
 }
 a {
 	color: cyan;
+	text-decoration:none;
 }
+.selpage {
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	color: hotpink;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+.selpage:hover {
+  color: white;
+}
+.selcpage{
+	color: aqua;
+	cursor: pointer;
+	padding: 14px;
+	background-color: transparent;
+	border-color:transparent;
+	font-size: 16px;
+	  font-weight: bold;
+
+	border-radius: 3px;
+}
+.selcpage:hover {
+	color: white;
+}
+.tab { 
+	margin-left: 30px;
+ }
